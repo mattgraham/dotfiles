@@ -1,3 +1,0 @@
-I just clone these files to ~/bin/dotfiles and then add this and only this to .bashrc:
-
-    . ~/bin/dotfiles/bashrc
