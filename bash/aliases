@@ -12,6 +12,7 @@ alias v='vagrant'
 alias bx='bundle exec'
 alias bo='bundle open'
 alias bu='bundle update'
+alias bundle='bundle && say -v Emily Sir, You have been bundled'
 
 alias pass='passenger start'
 
@@ -90,8 +91,7 @@ alias migrate='rake db:migrate db:test:prepare'
 alias remigrate='rake db:drop db:create db:migrate'
 
 #rbenv
+alias r8='rbenv shell ree-1.8.7-2012.01'
+alias r9='rbenv shell 1.9.3-p0'
 alias rb='rbenv'
 
-#RVM
-alias r8='rvm use ree'
-alias r9='rvm use 1.9.2'
