@@ -96,4 +96,4 @@ alias r9='rbenv shell 1.9.3-p0'
 alias rb='rbenv'
 
 #localserver
-alias http='open http://localhost:5000 && python -m SimpleHTTPServer'
+alias http='open http://localhost:5000 && python -m SimpleHTTPServer 5000'
