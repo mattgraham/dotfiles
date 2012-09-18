@@ -12,7 +12,6 @@ alias v='vagrant'
 alias bx='bundle exec'
 alias bo='bundle open'
 alias bu='bundle update'
-alias bundle='bundle && say -v Emily Sir, You have been bundled'
 
 alias pass='passenger start'
 
@@ -59,6 +58,7 @@ alias gsl='git stash list'
 alias grc='git rebase --continue'
 alias gri='git rebase --interactive'
 alias gpuh='git push heroku master'
+alias hb='hub browse'
 
 # DATABASES
 alias mstart='launchctl load -w ~/Library/LaunchAgents/org.mongodb.mongod.plist'
