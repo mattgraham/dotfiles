@@ -6,39 +6,16 @@ alias droid='say -v "Cellos"'
 
 alias '..'='cd ..'
 
-alias v='vagrant'
-
-# Bundler
-alias bx='bundle exec'
-alias bo='bundle open'
-alias bu='bundle update'
-
-alias pass='passenger start'
-
 alias h='heroku'
-alias pam='polyamory'
-alias repos='cd ~/repos'
-alias proj='cd ~/projects'
-alias clone='cd ~/repos && git clone $1'
 
-# Projects
-alias sp='cd ~/projects/speakerdeck'
-alias ga='cd ~/projects/gauges'
-alias harm='cd ~/projects/harmony'
-alias mm='cd ~/projects/mongomapper'
-alias ad='cd ~/projects/adapter'
-alias ts='cd ~/projects/toystore'
-alias tmo='cd ~/projects/toystore-mongo'
-alias plu='cd ~/projects/plucky'
-alias joint='cd ~/projects/joint'
-alias bonds='cd ~/projects/bonds'
+# GitHub
+alias talks='cd ~/github/speakerdeck'
+alias gauges='cd ~/github/gauges'
+alias play='cd ~/github/play'
 
 # General
-alias l='ls -lah'
-alias c='clear'
 alias o='open .'
 alias e='subl . -n'
-alias tf='tail -f -n 100'
 alias httpdump='sudo tcpdump -i en0 -n -s 0 -w - | grep -a -o -E "Host\: .*|GET \/.*"'
 
 # GIT
@@ -59,36 +36,15 @@ alias grc='git rebase --continue'
 alias gri='git rebase --interactive'
 alias gpuh='git push heroku master'
 alias hb='hub browse'
-
-# DATABASES
-alias mstart='launchctl load -w ~/Library/LaunchAgents/org.mongodb.mongod.plist'
-alias mstop='launchctl unload -w ~/Library/LaunchAgents/org.mongodb.mongod.plist'
-alias mystart='/usr/local/Cellar/mysql/5.1.45/share/mysql/mysql.server start'
-alias mystop='/usr/local/Cellar/mysql/5.1.45/share/mysql/mysql.server stop'
-alias memstart='launchctl load -w ~/Library/LaunchAgents/com.danga.memcached.plist'
-alias memstop='launchctl unload -w ~/Library/LaunchAgents/com.danga.memcached.plist'
-alias redstart='launchctl load -w ~/Library/LaunchAgents/io.redis.redis-server.plist'
-alias redstop='launchctl unload -w ~/Library/LaunchAgents/io.redis.redis-server.plist'
-alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
-alias pgstop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
-
-# SVN
-alias svnclear='find . -name .svn -print0 | xargs -0 rm -rf'
-alias svnaddall='svn status | grep "^\?" | awk "{print \$2}" | xargs svn add'
+alias qp='git add --all && git commit -m "quick push" && git push prod master'
 
 # RUBY
-alias ge='gem open' # gem install gem-browse
-alias irb='irb --readline -r irb/completion'
-alias i='irb -rubygems'
 alias ss='script/server'
 alias st='script/test'
 alias sc='script/console'
-alias sg='script/generate'
 alias r='rake'
 alias rt='rake -T'
 alias restart='touch tmp/restart.txt'
-alias migrate='rake db:migrate db:test:prepare'
-alias remigrate='rake db:drop db:create db:migrate'
 
 #rbenv
 alias r8='rbenv shell ree-1.8.7-2012.01'
@@ -97,3 +53,6 @@ alias rb='rbenv'
 
 #localserver
 alias http='open http://localhost:5000 && python -m SimpleHTTPServer 5000'
+
+#iOS-Development
+alias isubs='git submodule sync && git submodule update --init --recursive'
