@@ -9,14 +9,19 @@ alias '..'='cd ..'
 alias h='heroku'
 
 # GitHub
+alias gh='cd ~/github'
+alias github='cd ~/github/github'
 alias talks='cd ~/github/speakerdeck'
 alias gauges='cd ~/github/gauges'
 alias play='cd ~/github/play'
+alias ios='cd ~/github/talks-ios'
+alias conduit='cd ~/github/conduit && ruby local.rb ~/'
 
 # General
 alias o='open .'
 alias e='subl . -n'
 alias httpdump='sudo tcpdump -i en0 -n -s 0 -w - | grep -a -o -E "Host\: .*|GET \/.*"'
+alias flush='dscacheutil -flushcache'
 
 # GIT
 alias gb='git branch'
