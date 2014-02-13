@@ -10,19 +10,19 @@ alias h='heroku'
 
 alias apm='~/github/atom/apm/node_modules/.bin/apm'
 
-# GitHub
-alias gh='cd ~/github'
-alias github='cd ~/github/github'
-alias talks='cd ~/github/talks'
-alias sd='cd ~/github/speakerdeck'
-alias play='cd ~/github/play'
-
 # General
 alias o='open .'
 alias e='subl . -n'
 alias a='atom . -n'
 alias httpdump='sudo tcpdump -i en0 -n -s 0 -w - | grep -a -o -E "Host\: .*|GET \/.*"'
 alias flush='dscacheutil -flushcache'
+
+# GitHub
+alias gh='cd ~/github'
+alias github='cd ~/github/github'
+alias talks='cd ~/github/talks'
+alias sd='cd ~/github/speakerdeck'
+alias play='cd ~/github/play'
 
 # GIT
 alias gb='git branch'
