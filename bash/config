@@ -5,7 +5,7 @@
 
 function __git_dirty {
   git diff --quiet HEAD &>/dev/null 
-  [ $? == 1 ] && echo "!"
+  [ $? == 1 ] && echo " ⚡︎ "
 }
 
 function __git_branch {
