@@ -1,12 +1,13 @@
-These are my modifications to @jnunemaker's dotfiles. 
+Collectively these are my current dotfiles (based originally off @jnunemaker). Adding color, aliases and additional items that make my development process faster.
 
-### To install  
+![](http://f.cl.ly/items/220c2G1S0Q0g1M2k2D26/Screen%20Shot%202014-04-15%20at%202.46.17%20PM.png)
+
+### To Install  
 - Clone this repo to ~/bin/dotfiles
 - Then add this and only this to your .bashrc:
 
-<code>
-    . ~/bin/dotfiles/bashrc
-</code>
+```
+  . ~/bin/dotfiles/bashrc
+```
 
-
-You should be good to go. 
+You should be good to go.

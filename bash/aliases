@@ -13,6 +13,7 @@ alias httpdump='sudo tcpdump -i en0 -n -s 0 -w - | grep -a -o -E "Host\: .*|GET 
 alias flush='dscacheutil -flushcache'
 alias h='heroku'
 alias x='exit'
+alias dot='cd ~/bin/dotfiles'
 
 # Atom
 alias apm='~/github/atom/apm/node_modules/.bin/apm'
