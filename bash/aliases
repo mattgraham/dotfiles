@@ -2,55 +2,49 @@ alias reload='. ~/.bashrc'
 alias ea="$EDITOR ~/bin/dotfiles/bash/aliases && reload"
 alias ee="$EDITOR ~/bin/dotfiles/bash/env && reload"
 
+# Just Because
 alias droid='say -v "Cellos"'
 
-alias '..'='cd ..'
-
-alias h='heroku'
-
-alias apm='~/github/atom/apm/node_modules/.bin/apm'
-
 # General
+alias '..'='cd ..'
 alias o='open .'
-alias e='subl . -n'
 alias a='atom . -n'
 alias httpdump='sudo tcpdump -i en0 -n -s 0 -w - | grep -a -o -E "Host\: .*|GET \/.*"'
 alias flush='dscacheutil -flushcache'
+alias h='heroku'
+alias x='exit'
+
+# Atom
+alias apm='~/github/atom/apm/node_modules/.bin/apm'
 
 # GitHub
 alias gh='cd ~/github'
-alias github='cd ~/github/github'
-alias talks='cd ~/github/talks'
 alias sd='cd ~/github/speakerdeck'
-alias play='cd ~/github/play'
 
 # GIT
-alias gb='git branch'
+alias br='git branch'
 alias stash='git stash'
 alias pop='git stash pop'
-alias gc='git commit -v -m'
-alias gca='git commit -v -a'
-alias gcam='git commit --amend'
-alias gl='git log --decorate --stat --graph --pretty=format:"%d %Cgreen%h%Creset (%ar - %Cred%an%Creset), %s%n"'
-alias gd='git diff'
-alias gp='git pull'
-alias gpr='git pull --rebase'
-alias gpu='git push'
-alias gst='git status -sb'
-alias gsl='git stash list'
-alias grc='git rebase --continue'
-alias gri='git rebase --interactive'
-alias gpuh='git push heroku master'
-alias hb='hub browse'
-alias qp='git add --all && git commit -m "quick push" && git push prod master'
+alias gc='git commit -a'
+alias status='git status'
+alias co='git checkout'
+alias cob='git checkout -b'
+alias diff='git diff --color-words'
+alias dh='diff HEAD'
+alias push='git push'
+alias pull='git pull'
+alias sync='!git pull && git push'
+alias listconf='config --global --list'
+alias scrub='!git reset --hard && git clean -fd'
+alias pub='push -u origin'
+
+alias l1="git log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+
+alias l2="git log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 
 # RUBY
 alias ss='script/server'
 alias st='script/test'
-alias sc='script/console'
-alias r='rake'
-alias rt='rake -T'
-alias restart='touch tmp/restart.txt'
 
 #rbenv
 alias r8='rbenv shell ree-1.8.7-2012.01'
