@@ -5,6 +5,7 @@
 . ~/bin/dotfiles/bash/git-completion
 
 export PATH=$PATH:~/bin/dotfiles/bash
+export PROMPT_COMMAND='history -a'
 
 # Stuff you dont want to be in git repo can go in here and you can just git ignore
 [[ -f ~/bin/dotfiles/bash/private ]] && . ~/bin/dotfiles/bash/private
