@@ -14,6 +14,11 @@ alias flush='dscacheutil -flushcache'
 alias h='heroku'
 alias x='exit'
 alias gt='historytailbash 4 8'
+alias training='cd ~/training'
+alias training-start='cd ~/training/training-kit && _buildscripts/server'
+alias phps='php -S 0.0.0.0:8000 && open .'
+alias dp='cd ~/Dropbox\ \(Personal\)'
+alias os='cd ~/Dropbox\ \(Personal\)/Worship\ Team/OnSong/'
 
 # Atom
 alias apm='~/github/atom/apm/node_modules/.bin/apm'
