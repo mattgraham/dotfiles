@@ -4,6 +4,8 @@
 . ~/bin/dotfiles/bash/aliases
 . ~/bin/dotfiles/bash/git-completion
 
+eval "$(hub alias -s)"
+
 export PATH=$PATH:~/bin/dotfiles/bash
 export PROMPT_COMMAND='history -a'
 
