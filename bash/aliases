@@ -11,7 +11,6 @@ alias o='open .'
 alias a='atom . -n'
 alias httpdump='sudo tcpdump -i en0 -n -s 0 -w - | grep -a -o -E "Host\: .*|GET \/.*"'
 alias flush='dscacheutil -flushcache'
-alias h='heroku'
 alias x='exit'
 alias gt='historytailbash 4 8'
 alias training='cd ~/training'
@@ -22,6 +21,22 @@ alias worship='cd ~/Dropbox\ \(Personal\)/Worship\ Team/OnSong/'
 alias adobe-fonts='cd Library/Application\ Support/Adobe/CoreSync/plugins/livetype/'
 alias sql.start='mysql.server start'
 alias sql.stop='mysql.server stop'
+
+# Heroku
+alias h='heroku'
+
+function hp() {
+  branch=$(git rev-parse --abbrev-ref HEAD 2> /dev/null)
+  echo ""
+  echo "Deploying to GitHub"
+  echo "-------------------"
+  git push origin "$branch"
+  echo ""
+  echo "Deploying to Heroku"
+  echo "-------------------"
+  git push heroku "$branch":master
+  echo ""
+}
 
 # Atom
 alias apm='~/github/atom/apm/node_modules/.bin/apm'
