@@ -1,8 +1,9 @@
 #!/bin/bash
 
-read -r -p "Are you sure? [y/N] " response
+read -r -p "What? Are you sure? [y/n] " response
 if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]
 then
+
 	# Set WordPress Version
 	WP_VERSION=4.0
 
