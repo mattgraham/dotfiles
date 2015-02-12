@@ -10,4 +10,8 @@ Collectively these are my current dotfiles (based originally off @jnunemaker). A
   . ~/bin/dotfiles/bashrc
 ```
 
+### Private Aliases etc.
+
+My private aliases are submoduled (as a gist) in via ```~/bin/dotfiles/bash/private/private``` the file is checked and added if it exists.
+
 You should be good to go.
