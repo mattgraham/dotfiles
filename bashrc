@@ -4,6 +4,15 @@
 . ~/bin/dotfiles/bash/aliases
 . ~/bin/dotfiles/bash/git-completion
 
+#
+# Submodule Gist for Private Aliases
+#
+
+if [ -f ~/bin/dotfiles/bash/private/private ]
+  then
+  . ~/bin/dotfiles/bash/private/private
+fi
+
 eval "$(hub alias -s)"
 
 export PATH=$PATH:~/bin/dotfiles/bash
