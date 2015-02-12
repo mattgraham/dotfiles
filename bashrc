@@ -8,9 +8,9 @@
 # Submodule Gist for Private Aliases
 #
 
-if [ -f ~/bin/dotfiles/bash/private/private ]
+if [ -d ~/bin/dotfiles/bash/private ]
   then
-  . ~/bin/dotfiles/bash/private/private
+  . ~/bin/dotfiles/bash/private/*
 fi
 
 eval "$(hub alias -s)"

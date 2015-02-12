@@ -12,6 +12,12 @@ Collectively these are my current dotfiles (based originally off @jnunemaker). A
 
 ### Private Aliases etc.
 
-My private aliases are submoduled (as a gist) in via ```~/bin/dotfiles/bash/private/private``` the file is checked and added if it exists.
+My private aliases are submoduled (as a gist) in via the ```~/bin/dotfiles/bash/private/``` folder. The bashrc file checks to see if it exists and then adds all files.
 
-You should be good to go.
+Adding Gist:
+
+    git submodule add -f <gist url> bash/private
+
+Additional files or even private repo can be closed to this folder and will not be added to the public repo.
+
+Thanks it. You should be good to go.
