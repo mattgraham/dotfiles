@@ -1,0 +1,3 @@
+[submodule "bash/private"]
+	path = bash/private
+	url = git@gist.github.com:/4a42495f62c124c8b482.git
