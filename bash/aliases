@@ -22,9 +22,6 @@ alias adobe-fonts='cd Library/Application\ Support/Adobe/CoreSync/plugins/livety
 alias sql.start='mysql.server start'
 alias sql.stop='mysql.server stop'
 
-# Projects
-alias adva='cd ~/github/advawater.com && a && ss'
-
 # Heroku
 alias h='heroku'
 
