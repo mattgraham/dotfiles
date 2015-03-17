@@ -24,6 +24,11 @@ alias sql.stop='mysql.server stop'
 alias be='bundle exec'
 alias movgif='~/github/screengif/screengif.rb'
 
+# Local Web Servers
+alias 4000="open http://localhost:4000"
+alias 5000="open http://localhost:5000"
+alias 8000="open http://localhost:8000";
+
 # Heroku
 alias h='heroku'
 alias hc='heroku config'
