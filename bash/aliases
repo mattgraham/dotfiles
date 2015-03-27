@@ -91,7 +91,7 @@ alias rb='rbenv'
 alias rbenv-update='cd ~/.rbenv/plugins/ruby-build/ && git pull'
 
 #localserver
-alias http='open http://localhost:5000 && python -m SimpleHTTPServer 5000'
+alias http='open http://localhost:8000 && python -m SimpleHTTPServer 8000'
 
 #iOS-Development
 alias isubs='git submodule sync && git submodule update --init --recursive'
