@@ -22,7 +22,7 @@ alias adobe-fonts='cd Library/Application\ Support/Adobe/CoreSync/plugins/livety
 alias sql.start='mysql.server start'
 alias sql.stop='mysql.server stop'
 alias be='bundle exec'
-alias movgif='~/github/screengif/screengif.rb'
+alias screengif='~/github/screengif/screengif.rb'
 
 # Local Web Servers
 alias 4000="open http://localhost:4000"
