@@ -78,6 +78,7 @@ alias browse='hub browse'
 alias master='git checkout master'
 alias remotes='git remote -v'
 alias fetch='git fetch'
+alias branchclean='git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -d'
 
 alias l1="git log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias l2="git log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
