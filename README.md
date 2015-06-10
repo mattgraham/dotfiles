@@ -4,7 +4,7 @@ Collectively these are my current dotfiles (based originally off @jnunemaker). A
 
 ### To Install  
 - Clone this repo to ~/bin/dotfiles
-- Then add this and only this to your .bashrc:
+- Then add this and only this to your .bash_profile:
 
 ```
   . ~/bin/dotfiles/bashrc
