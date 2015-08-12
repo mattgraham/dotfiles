@@ -22,7 +22,6 @@ alias adobe-fonts='cd Library/Application\ Support/Adobe/CoreSync/plugins/livety
 alias sql.start='mysql.server start'
 alias sql.stop='mysql.server stop'
 alias be='bundle exec'
-alias screengif='~/github/screengif/screengif.rb'
 alias msgbomb='~/Library/Messages/reset'
 
 # Local Web Servers
