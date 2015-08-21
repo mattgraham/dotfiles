@@ -23,6 +23,7 @@ alias sql.start='mysql.server start'
 alias sql.stop='mysql.server stop'
 alias be='bundle exec'
 alias msgbomb='~/Library/Messages/reset'
+alias dt='ssh root@divetemp.com'
 
 # Local Web Servers
 alias 4000="open http://localhost:4000"
