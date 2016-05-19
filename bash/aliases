@@ -83,6 +83,8 @@ alias remotes='git remote -v'
 alias fetch='git fetch'
 alias branchclean='git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -d'
 alias branch='git branch'
+alias gitr='git reset --hard'
+
 alias rbupdate='cd ~/.rbenv/plugins/ruby-build && git pull'
 
 alias l1="git log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
