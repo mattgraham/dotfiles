@@ -22,8 +22,8 @@ alias adobe-fonts='cd Library/Application\ Support/Adobe/CoreSync/plugins/livety
 alias sql.start='mysql.server start'
 alias sql.stop='mysql.server stop'
 alias be='bundle exec'
-alias screengif='~/github/screengif/screengif.rb'
 alias msgbomb='~/Library/Messages/reset'
+alias dt='ssh root@divetemp.com'
 
 # Local Web Servers
 alias 4000="open http://localhost:4000"
@@ -68,6 +68,7 @@ alias pop='git stash pop'
 alias gc='git commit'
 alias status='git status'
 alias co='git checkout'
+alias checkout='git checkout'
 alias cob='git checkout -b'
 alias diff='git diff --color-words'
 alias dh='diff HEAD'

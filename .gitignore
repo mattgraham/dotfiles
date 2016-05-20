@@ -1,3 +1,4 @@
 .DS_Store
+.gitmodules
 bash/private
 ssh/
