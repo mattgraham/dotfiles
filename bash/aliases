@@ -8,7 +8,6 @@ alias droid='say -v "Cellos"'
 # General
 alias '..'='cd ..'
 alias o='open .'
-alias a='atom . -n'
 alias httpdump='sudo tcpdump -i en0 -n -s 0 -w - | grep -a -o -E "Host\: .*|GET \/.*"'
 alias flush='dscacheutil -flushcache'
 alias x='exit'
@@ -52,8 +51,8 @@ function hp() {
 }
 
 # Atom
-alias apm='~/github/atom/apm/node_modules/.bin/apm'
-alias atom-flush="sudo rm -rf /tmp/atom-compile-cache"
+alias a='atom . -n'
+alias ab='atom-beta . -n'
 
 # GitHub Projects
 alias gh='cd ~/github'
