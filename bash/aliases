@@ -36,6 +36,7 @@ alias h='heroku'
 alias hc='heroku config'
 alias hc.personal='git config heroku.account personal'
 alias hc.heroku='git config heroku.account heroku'
+alias ph='git push heroku master'
 
 function hp() {
   branch=$(git rev-parse --abbrev-ref HEAD 2> /dev/null)
