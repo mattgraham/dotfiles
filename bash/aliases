@@ -43,6 +43,10 @@ alias hc='heroku config'
 alias hc.personal='git config heroku.account personal'
 alias hc.heroku='git config heroku.account heroku'
 alias ph='git push heroku master'
+alias shibori-on="bundle config local.shibori ~/github/shibori"
+alias shibori-off="bundle config --delete local.shibori"
+alias bookends-on="bundle config local.bookends ~/github/bookends"
+alias bookends-off="bundle config --delete local.bookends"
 
 function hp() {
   branch=$(git rev-parse --abbrev-ref HEAD 2> /dev/null)
