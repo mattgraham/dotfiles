@@ -30,6 +30,7 @@ alias ls5000='lsof -i tcp:5000'
 alias redisup='brew services start redis'
 alias redisdown='brew services stop redis'
 alias camkill='sudo killall VDCAssistant'
+alias fast='~/github/speedtest-cli/speedtest.py'
 
 # Local Web Servers
 alias 4000="open http://localhost:4000"
