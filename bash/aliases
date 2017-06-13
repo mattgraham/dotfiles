@@ -64,8 +64,8 @@ function hp() {
 }
 
 # Atom
-alias a='atom . -n'
-alias ab='atom-beta . -n'
+alias a1='atom . -n'
+alias a='atom-beta . -n'
 
 # GitHub Projects
 alias gh='cd ~/github'
