@@ -1,0 +1,24 @@
+#!/bin/sh
+#
+#
+
+read -r -p "This will remove all Apple Message history Are you sure? [y/N] " response
+if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]
+then
+  echo "Removing messages..."
+  rm -r ~/Library/Messages/chat.*
+  rm -r ~/Library/Messages/Archive/*
+  rm -r ~/Library/Messages/Attachments/*
+  rm -r ~/Library/Messages/StickerCache/*
+  touch ~/Library/Messages/chat.db
+  touch ~/Library/Messages/chat.db-shm
+  touch ~/Library/Messages/chat.db-wai
+
+  echo ""
+  echo " 👍  You're ready to go."
+  echo ""
+else
+  echo ""
+  echo " Messages left alone."
+  echo ""
+fi
