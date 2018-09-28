@@ -27,6 +27,12 @@ alias redisup='brew services start redis'
 alias redisdown='brew services stop redis'
 alias camkill='sudo killall VDCAssistant'
 alias ip='curl ifconfig.me'
+alias fast='~/github/speedtest-cli/speedtest.py'
+
+# Personal
+alias db='cd ~/Dropbox\ \(Personal\)'
+alias worship='cd ~/Dropbox/Worship\ Team/OnSong/'
+alias home='cd /Volumes/Home/github/'
 
 # Local Web Servers
 alias 4000="open http://localhost:4000"
