@@ -28,6 +28,7 @@ alias redisdown='brew services stop redis'
 alias camkill='sudo killall VDCAssistant'
 alias ip='curl ifconfig.me'
 alias fast='~/github/speedtest-cli/speedtest.py'
+alias history='history | awk '{print $2}' | sort | uniq -c | sort -rn | head -5'
 
 # Personal
 alias db='cd ~/Dropbox\ \(Personal\)'
