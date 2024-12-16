@@ -1,13 +1,12 @@
-eval "$(rbenv init -)"
-
-. ~/bin/dotfiles/bash/env
-. ~/bin/dotfiles/bash/config
-. ~/bin/dotfiles/bash/functions
-. ~/bin/dotfiles/bash/aliases
-. ~/bin/dotfiles/bash/git-completion
+# Unused
+. ~/dotfiles/bash/env
+. ~/dotfiles/bash/config
+. ~/dotfiles/bash/functions
+. ~/dotfiles/bash/aliases
+. ~/dotfiles/bash/git-completion
 
 eval "$(hub alias -s)"
 
-export PATH=$PATH:~/bin/dotfiles/bash
+export PATH=$PATH:~/dotfiles/bash
 export PROMPT_COMMAND='history -a'
 export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
