@@ -9,4 +9,4 @@ eval "$(hub alias -s)"
 
 export PATH=$PATH:~/dotfiles/bash
 export PROMPT_COMMAND='history -a'
-export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
+# export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
