@@ -41,6 +41,7 @@ alias ls5000='lsof -i tcp:5000'
 alias ls4567='lsof -i tcp:4567'
 alias redisup='brew services start redis'
 alias redisdown='brew services stop redis'
+alias ghostconfig='cd ~/Library/Application\ Support/com.mitchellh.ghostty'
 
 function hp() {
   branch=$(git rev-parse --abbrev-ref HEAD 2> /dev/null)
